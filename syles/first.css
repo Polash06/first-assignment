@@ -1,21 +1,63 @@
-body{
-    font-family: 'Open Sans', sans-serif; 
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.btn-primary{
-    border-radius: 8px;
-background: #E55473;
-border: 0;
-color: #FFF;
-font-size: 15px;
-font-weight: 700;
-padding: 15px 35px;
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  border: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+.section-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+nav > h2 {
+  color: #272727;
+  font-size: 30px;
+  font-weight: 700;
+}
+nav,
+p {
+  color: #474747;
+}
+header {
+  background: hsla(347, 74%, 61%, 0.102);
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
 }
 
-nav > h2{
-    color: #272727;
-    font-size: 30px;
-    font-weight: 700; 
+.nav {
+  padding: 160px 200px 100px 100px;
 }
-nav,p{
-    color: #474747;
+.about {
+  padding: 150px;
+  background: #fff;
+}
+
+.banner img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+.pik{
+    display: flex;
 }
