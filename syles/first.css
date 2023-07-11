@@ -57,7 +57,79 @@ header {
   max-width: 500px;
   width: 100%;
   height: auto;
+display: flex;
 }
-.pik{
+.section-title{
+    gap: 24;
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+.section-description{
     display: flex;
 }
+.itam-tag{
+ display: flex;
+ margin: 50px;
+padding: 20px;
+gap: 100px;
+}
+.title{
+ border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+padding: 20px 20px px;
+}
+.beautiful{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+}
+.flowers{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+.make-tag{
+    border-radius: 20px;
+    background: rgba(39, 39, 39, 0.05); 
+margin: 150px;
+padding: 50px;
+gap: 400px;
+display: flex;
+width: 1440px;
+height: 50px;
+}
+.body-tag{
+ width: 1922px;
+height: 620px;
+flex-shrink: 0;
+padding: 300px;
+margin: 200px;
+border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+
+}
+.point{
+   display: block;
+}
+.main-tag{
+    margin: 300px;
+    padding: 10px 40px 100px;
+}
+.fonts{
+ display: flex;
+width: 342px;
+height: 300px;
+gap: 40px;
+padding: 0px 0px 0px 100px;
+}
+.name{
+    /* padding: 30px 30px 30px 30px; */
+    margin: 100px;
+ width: 1150px;
+height: 449px;
+
+}
+
+
+
+
