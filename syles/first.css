@@ -49,7 +49,8 @@ header {
   padding: 160px 200px 100px 100px;
 }
 .about {
-  padding: 150px;
+  height: 200px;
+  padding: 150px 200px 20px 200px ;
   background: #fff;
 }
 
@@ -60,19 +61,23 @@ header {
 display: flex;
 }
 .section-title{
-    gap: 24;
-    color: #272727;
+padding: 20px 100px 20px 200px;
+margin: 30px;
+gap: 24;
+ color: #272727;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
 }
 .section-description{
     display: flex;
+    margin: 500px;
+    padding: 50px 20px 20px 20px;
 }
 .itam-tag{
  display: flex;
  margin: 50px;
-padding: 20px;
+padding: 20px 200px 100px 20px;
 gap: 100px;
 }
 .title{
@@ -89,34 +94,37 @@ background: rgba(5, 151, 160, 0.15);
     background: rgba(71, 125, 17, 0.15);
 }
 .make-tag{
-    border-radius: 20px;
-    background: rgba(39, 39, 39, 0.05); 
-margin: 150px;
-padding: 50px;
+ border-radius: 20px;
+ background: rgba(39, 39, 39, 0.05); 
+margin: 70px;
+padding: 100px 170px 100px 40px;
 gap: 400px;
 display: flex;
-width: 1440px;
-height: 50px;
+width: 1000px;
+height: 70px;
 }
 .body-tag{
- width: 1922px;
-height: 620px;
+ width: 1500px;
+height: 500px;
 flex-shrink: 0;
-padding: 300px;
-margin: 200px;
+padding: 100px;
+margin: 70px;
 border-radius: 8px;
 background: rgba(229, 84, 115, 0.05);
 
 }
 .point{
-   display: block;
+  display: flex;
+   margin: 100px;
+  padding:  0px 200px 60px 700px;
 }
 .main-tag{
 margin: 100px;
-padding-left: 20px;
+padding: 20px 20px 20px 20px;
 }
 .my{
-padding: 100px 20px 20px 350px;
+padding: 0px 0px 0px 350px;
+margin: 50px;
 }
 .fonts{
  display: flex;
@@ -127,14 +135,13 @@ padding: 0px 0px 0px 100px;
 }
 .name{
     /* padding: 30px 30px 30px 30px; */
-    margin: 100px;
+  margin: 100px;
  width: 1150px;
 height: 449px;
 }
 .reader{
     background: #111010;
     padding: 10px 20px 10px 20px;
-    margin: 30px;
 }
 .is{
 color: rgba(255, 255, 255, 0.90);
@@ -145,6 +152,7 @@ font-weight: 400;
 line-height: 20px;
 }
 .be{
+  color: #e55473;
 margin-left: 40px;
 margin: 20px;
 padding: 30px 200px 10px 500px;
@@ -155,6 +163,18 @@ font-weight: 800;
     padding: 0 0 0 450px;
     font-size: 15px;
 }
+.png{
+  color: #fff;
+}
+.pngwing{
+  margin: 70px;
+  padding: 20px 50px 30px 20px;
+  width: 1170px;
+height: 350px;
+}
+
+
+
 
 
 
